@@ -1,0 +1,17 @@
+<div class="progress-item">
+  <span class="progress-title">{{skill.skill}}</span>
+
+  <div class="progress">
+    <div 
+      class="progress-bar" 
+      role="progressbar" 
+      [attr.aria-valuenow]="skill.percent" 
+      aria-valuemin="0" 
+      aria-valuemax="100"
+      [style.width]="skill.percent+'%'">
+      <span class="progress-percent"> {{skill.percent}}%</span>
+    </div>
+  </div>
+  <!-- .progress -->
+</div>
+<!-- .skill-progress -->

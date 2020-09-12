@@ -1,0 +1,15 @@
+<div class="content-item">
+  <small>{{experience.start}} - {{experience.end}}</small>
+  <h3>{{experience.position}}</h3>
+  <h4>{{experience.company}}</h4>
+
+  <p>{{experience.location}}</p>
+
+  <ng-template [ngIf]="experience.activities.length">
+      <ul>
+          <ng-container *ngFor="let activity of experience.activities">
+            <li>{{activity}}</li>
+          </ng-container>
+      </ul>
+  </ng-template>
+</div>

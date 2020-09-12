@@ -1,0 +1,24 @@
+<section class="section-wrapper section-experience gray-bg">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="section-title">
+          <h2>Work Experience</h2>
+        </div>
+      </div>
+    </div>
+    <!--.row-->
+    <div class="row">
+      <div class="col-md-12">
+        <ng-container *ngFor="let experience of experiences">
+          <app-experience [experience]="experience"></app-experience>
+          <!-- .experience-item -->
+        </ng-container>
+      </div>
+    </div>
+    <!--.row-->
+  </div>
+  <!-- .container-fluid -->
+
+</section>
+<!-- .section-experience -->
