@@ -16,12 +16,12 @@ export class ExperienciesComponent implements OnInit {
       company: 'Emblic Technologies',
       location: 'Port Harcourt, Rivers',
       activities: [
-        'Build the myemblic hotel management SaaS backend with CodeIgniter and Luthier',
-        'Build the administrator frontend using Angular',
-        'Build the Landing page using Angular',
-        'Build the Hotel ERP using Angular',
-        'Implement CI/CD using Gitlab CI and codeigniter migrations',
-        'Host Hotel ERP solution on cpanel using Gitlab CI/CD'
+        'Built the myemblic hotel management SaaS backend with CodeIgniter and Luthier',
+        'Built the administrator frontend using Angular',
+        'Built the Landing page using Angular',
+        'Built the Hotel ERP using Angular',
+        'Implemented CI/CD using Gitlab CI and codeigniter migrations',
+        'Hosted Hotel ERP solution on cpanel using Gitlab CI/CD'
       ]
     },
     {
@@ -31,11 +31,11 @@ export class ExperienciesComponent implements OnInit {
       company: 'National Youth Service Corp',
       location: 'Dunukofia, Anambra',
       activities: [
-        'Teach JSS3 Class about Microsoft Office Packages',
-        'Teach JSS3 Class about BASIC programming Language and computer arithmetics',
-        'Teach JSS2 Class about basic computer components, types and ethics',
-        'Teach JSS2 Class about Application and system software packages',
-        'Teach JSS2 Class about Number systems and number bases conversion'
+        'Taught JSS3 Class about Microsoft Office Packages',
+        'Taught JSS3 Class about BASIC programming Language and computer arithmetics',
+        'Taught JSS2 Class about basic computer components, types and ethics',
+        'Taught JSS2 Class about Application and system software packages',
+        'Taught JSS2 Class about Number systems and number bases conversion'
       ]
     },
     {
@@ -45,13 +45,13 @@ export class ExperienciesComponent implements OnInit {
       company: 'Bezop Blockchain Inc.',
       location: 'Awka, Anambra',
       activities: [
-        'Build Bezex crypto exchange SaaS Operator and Administrator Frontend using Angular',
-        'Build Bezex Administrator Backend using PostgresSQL and Google cloud data store',
+        'Built Bezex crypto exchange SaaS Operator and Administrator Frontend using Angular',
+        'Built Bezex Administrator Backend using PostgresSQL and Google cloud data store',
         'Deployment using Cloud Build, Cloud Run and Docker',
-        'Deploy Frontend, backend and databases to GCP compute instances',
-        'Configure and Manage Bezex administrator Databases and Compute instances using Cloud DNS and Networking',
-        'Build and Deploy Bezex Zero Knowledge wallets for 50 Crypto currencies and other Digital assets such as ERC-20 tokens and OMNI tokens',
-        'Implement Zero Knowledge wallet backup and recovery',
+        'Deployed Frontend, backend and databases to GCP compute instances',
+        'Configured and Managed Bezex administrator Databases and Compute instances using Cloud DNS and Networking',
+        'Built and Deployed Bezex Zero Knowledge wallets for 50 Crypto currencies and other Digital assets such as ERC-20 tokens and OMNI tokens',
+        'Implemented Zero Knowledge wallet backup and recovery',
         'Built email broadcast service using AWS SES'
       ]
     },
@@ -62,10 +62,10 @@ export class ExperienciesComponent implements OnInit {
       company: 'Nugi Technologies',
       location: 'Calabar, Cross river',
       activities: [
-        `Build and deploy Tailorgang Tailor's dashboard using codeignter`,
-        'Build and deploy Tailorgang API using NodeJS and MongoDB',
-        'Implement Micro service Architecture using the Axon socket package',
-        'Implement tailor search service using elastick search'
+        `Built and deployed Tailorgang Tailor's dashboard using codeignter`,
+        'Built and deployed Tailorgang API using NodeJS and MongoDB',
+        'Implemented Micro service Architecture using the Axon socket package',
+        'Implemented tailor search service using elastick search'
       ]
     },
     {
@@ -75,8 +75,8 @@ export class ExperienciesComponent implements OnInit {
       company: 'Nugi Technologies',
       location: 'Calabar, Cross river',
       activities: [
-        'Renovate the nugitech.com website',
-        `Build and deploy initial release of Tailorgang Tailor's dashboard using codeignter`
+        'Renovated the nugitech.com website',
+        `Built and deployed initial release of Tailorgang Tailor's dashboard using codeignter`
       ]
     },
   ];

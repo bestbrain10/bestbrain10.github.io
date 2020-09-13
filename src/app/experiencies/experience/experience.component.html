@@ -6,7 +6,7 @@
   <p>{{experience.location}}</p>
 
   <ng-template [ngIf]="experience.activities.length">
-      <ul>
+      <ul style="list-style-type: square; padding-left: 15px;">
           <ng-container *ngFor="let activity of experience.activities">
             <li>{{activity}}</li>
           </ng-container>
