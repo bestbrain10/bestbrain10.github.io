@@ -16,10 +16,10 @@ export class ExperienciesComponent implements OnInit {
       company: 'Emblic Technologies',
       location: 'Port Harcourt, Rivers',
       activities: [
-        'Built the myemblic hotel management SaaS backend with CodeIgniter and Luthier',
-        'Built the administrator frontend using Angular',
-        'Built the Landing page using Angular',
-        'Built the Hotel ERP using Angular',
+        'Built the myemblic hotel management SaaS backend',
+        'Built the administrator frontend',
+        'Built the Landing page',
+        'Built the Hotel ERP',
         'Implemented CI/CD using Gitlab CI and codeigniter migrations',
         'Hosted Hotel ERP solution on cpanel using Gitlab CI/CD'
       ]
@@ -45,12 +45,12 @@ export class ExperienciesComponent implements OnInit {
       company: 'Bezop Blockchain Inc.',
       location: 'Awka, Anambra',
       activities: [
-        'Built Bezex crypto exchange SaaS Operator and Administrator Frontend using Angular',
-        'Built Bezex Administrator Backend using PostgresSQL and Google cloud data store',
+        'Built Crypto exchange SaaS Operator and Administrator Frontend',
+        'Built Administrator Backend',
         'Deployment using Cloud Build, Cloud Run and Docker',
         'Deployed Frontend, backend and databases to GCP compute instances',
-        'Configured and Managed Bezex administrator Databases and Compute instances using Cloud DNS and Networking',
-        'Built and Deployed Bezex Zero Knowledge wallets for 50 Crypto currencies and other Digital assets such as ERC-20 tokens and OMNI tokens',
+        'Configured and Managed administrator Databases and Compute instances using Cloud DNS and Networking',
+        'Built and deployed Zero Knowledge wallets for 50 Crypto currencies and other Digital assets such as ERC-20 tokens and OMNI tokens',
         'Implemented Zero Knowledge wallet backup and recovery',
         'Built email broadcast service using AWS SES'
       ]
@@ -62,10 +62,10 @@ export class ExperienciesComponent implements OnInit {
       company: 'Nugi Technologies',
       location: 'Calabar, Cross river',
       activities: [
-        `Built and deployed Tailorgang Tailor's dashboard using codeignter`,
-        'Built and deployed Tailorgang API using NodeJS and MongoDB',
+        `Built and deployed Tailorgang Tailor's dashboard`,
+        'Built and deployed Tailorgang API',
         'Implemented Micro service Architecture using the Axon socket package',
-        'Implemented tailor search service using elastick search'
+        'Implemented tailor search service using elastic search'
       ]
     },
     {
@@ -76,7 +76,7 @@ export class ExperienciesComponent implements OnInit {
       location: 'Calabar, Cross river',
       activities: [
         'Renovated the nugitech.com website',
-        `Built and deployed initial release of Tailorgang Tailor's dashboard using codeignter`
+        `Built and deployed initial release of Tailorgang Tailor's dashboard`
       ]
     },
   ];
