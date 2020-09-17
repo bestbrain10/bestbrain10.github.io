@@ -56,23 +56,12 @@ export class ExperienciesComponent implements OnInit {
       company: 'Nugi Technologies',
       location: 'Calabar, Cross river',
       activities: [
-        `Built and deployed Tailorgang Tailor's dashboard`,
-        'Built and deployed Tailorgang API',
+        `Built and deployed Tailorgang Tailor's dashboard and API`,
         'Implemented Micro service Architecture using the Axon socket package',
-        'Implemented tailor search service using elastic search'
+        'Implemented tailor search service using elastic search',
+        'Renovated the nugitech.com website'
       ]
-    },
-    {
-      start: 2017,
-      end: 2017,
-      position: 'Intern Fullstack Developer',
-      company: 'Nugi Technologies',
-      location: 'Calabar, Cross river',
-      activities: [
-        'Renovated the nugitech.com website',
-        `Built and deployed initial release of Tailorgang Tailor's dashboard`
-      ]
-    },
+    }
   ];
 
   constructor() { }
