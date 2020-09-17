@@ -12,7 +12,7 @@ export class EducationComponent implements OnInit {
     {
       start: 2013,
       end: 2018,
-      institution: 'Michael Okpara Unviversity of Agriculture, Umudike',
+      institution: 'Michael Okpara University of Agriculture, Umudike',
       degree: 'B.ENG Computer Engineering',
       location: 'Umuahia, Abia State, Nigeria'
     }
