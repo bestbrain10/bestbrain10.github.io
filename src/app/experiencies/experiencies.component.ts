@@ -16,10 +16,8 @@ export class ExperienciesComponent implements OnInit {
       company: 'Emblic Technologies',
       location: 'Port Harcourt, Rivers',
       activities: [
-        'Built the myemblic hotel management SaaS backend',
-        'Built the administrator frontend',
-        'Built the Landing page',
-        'Built the Hotel ERP',
+        'Built the Hotel management SaaS backend',
+        'Built the Hotel ERP, administrator dashboard and landing page',
         'Implemented CI/CD using Gitlab CI and codeigniter migrations',
         'Hosted Hotel ERP solution on cpanel using Gitlab CI/CD'
       ]
@@ -45,13 +43,9 @@ export class ExperienciesComponent implements OnInit {
       company: 'Bezop Blockchain Inc.',
       location: 'Awka, Anambra',
       activities: [
-        'Built Crypto exchange SaaS Operator and Administrator Frontend',
-        'Built Administrator Backend',
-        'Deployment using Cloud Build, Cloud Run and Docker',
-        'Deployed Frontend, backend and databases to GCP compute instances',
-        'Configured and Managed administrator Databases and Compute instances using Cloud DNS and Networking',
-        'Built and deployed Zero Knowledge wallets for 50 Crypto currencies and other Digital assets such as ERC-20 tokens and OMNI tokens',
-        'Implemented Zero Knowledge wallet backup and recovery',
+        'Built Crypto exchange SaaS Operator and Administrator Frontend and backend',
+        'Deployment using Cloud Build, Cloud Run and Docker on GCP',
+        'Built and deployed Zero Knowledge wallets for 50 Crypto currencies and other Digital assets such as ERC-20 tokens and OMNI tokens with wallet backup and recovery mechanism',
         'Built email broadcast service using AWS SES'
       ]
     },
