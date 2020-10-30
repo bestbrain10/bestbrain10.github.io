@@ -48,6 +48,14 @@ export class SkillsComponent implements OnInit {
     {
       skill: 'Linux Administration',
       percent: 60
+    },
+    {
+      skill: 'Terraform',
+      percent: 40
+    },
+    {
+      skill: 'GO',
+      percent: 20
     }
   ].sort(({percent: prev}, {percent: next}) => next - prev);
 
