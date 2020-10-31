@@ -16,10 +16,13 @@ export class ExperienciesComponent implements OnInit {
       company: 'Emblic Technologies',
       location: 'Port Harcourt, Rivers',
       activities: [
-        'Built the Hotel management SaaS backend',
-        'Built the Hotel ERP, administrator dashboard and landing page',
-        'Implemented CI/CD using Gitlab CI and codeigniter migrations',
-        'Hosted Hotel ERP solution on cpanel using Gitlab CI/CD'
+        `Related with the client to decide the best architecture and tools for our system -
+          a multi-tenancy architecture - based off the submitted system specifications
+        `,
+        'Built the Hotel management SaaS REST API using OAuth 2.0 authentication model',
+        `Implemented a CI/CD based workflow to replace the previously
+        used direct FTP project file uploads and manual database migrations`,
+        'Wrote a technical documentation of the implemented system'
       ]
     },
     {
@@ -29,11 +32,9 @@ export class ExperienciesComponent implements OnInit {
       company: 'National Youth Service Corp',
       location: 'Dunukofia, Anambra',
       activities: [
-        'Taught JSS3 Class about Microsoft Office Packages',
-        'Taught JSS3 Class about BASIC programming Language and computer arithmetics',
-        'Taught JSS2 Class about basic computer components, types and ethics',
-        'Taught JSS2 Class about Application and system software packages',
-        'Taught JSS2 Class about Number systems and number bases conversion'
+        'Exposed JSS3 Class to Microsoft Office Packages, BASIC programming language and computer arithmetics',
+        'Taught JSS2 Class about basic computer components, types and ethics and  computer arithmetics',
+        'Introduced JSS2 Class to commonly used application and system software packages',
       ]
     },
     {
@@ -43,10 +44,10 @@ export class ExperienciesComponent implements OnInit {
       company: 'Bezop Blockchain Inc.',
       location: 'Awka, Anambra',
       activities: [
-        'Built Crypto exchange SaaS Operator and Administrator Frontend and backend',
-        'Deployment using Cloud Build, Cloud Run and Docker on GCP',
+        'Planned and designed the flow of data in software systems with teammates',
+        `Wrote frontend and backend code for enterprise-grade web applications - an internal super administrator and a cryptocurrency exchange administrator dashboard`,
         'Built and deployed Zero Knowledge wallets for 50 Crypto currencies and other Digital assets such as ERC-20 tokens and OMNI tokens with wallet backup and recovery mechanism',
-        'Built email broadcast service using AWS SES'
+        'Set up software deployment environments on cloud infrastructure while utilising DevOps technologies'
       ]
     },
     {
@@ -56,10 +57,10 @@ export class ExperienciesComponent implements OnInit {
       company: 'Nugi Technologies',
       location: 'Calabar, Cross river',
       activities: [
-        `Built and deployed Tailorgang Tailor's dashboard and API`,
-        'Implemented Micro service Architecture using the Axon socket package',
-        'Implemented tailor search service using elastic search',
-        'Renovated the nugitech.com website'
+        `Built and deployed Tailorgang API while utilizing best security practices`,
+        'Improved existing monolith system to a micro service architecture so individual system components could scale and be optimized independently',
+        'Enhanced the Tailorgang tailor discovery service by integrating elastic search and geolocation',
+        'Helped improve the user experience of the company public profile by renovating and improving its website'
       ]
     }
   ];
