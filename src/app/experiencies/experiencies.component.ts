@@ -41,7 +41,7 @@ export class ExperienciesComponent implements OnInit {
       start: 2018,
       end: 2019,
       position: 'Senior Software Developer',
-      company: 'Bezop Blockchain Inc.',
+      company: 'Nano Intelligence Inc.',
       location: 'Awka, Anambra',
       activities: [
         'Planned and designed the flow of data in software systems with teammates',
